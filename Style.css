@@ -1,0 +1,334 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  
+}
+.h2{
+max-width:25px;
+text-align: justify;
+padding: 20px;
+background: burlywood;
+margin-right: 5px;
+color:navy;
+}
+
+.tsk img{
+width: 55%;
+height: 60%;
+border-radius: 45%;
+box-shadow:blanchedalmond 8px 8px 8px;
+}
+
+progress{
+  font-size: 35px;
+}
+.sfs {
+  width:35%;
+  float: left;
+  
+}
+.cont {
+  width: 65%;
+  float: left;
+}
+
+.parent img{
+  width:90%;
+  height: 80%;
+}
+
+.skls {
+  width:55%;
+  float: left;
+  
+}
+table{
+  width: 90%;
+  height: 40%;
+
+}
+th {
+  margin:15%;
+}
+
+.parents img{
+  width: 40%;
+  height: 50%;
+  border-radius: 48%;
+
+}
+
+.h1{
+color:brown;
+font-size: 25px;
+}
+
+.tsk {
+  width: 45%;
+  float: left;
+}
+
+.tsk img{
+width: 40%;
+height: 50%;
+}
+
+.tb img{
+  width: 50px;
+  height: 50%;
+  
+}
+
+.container{
+  margin-top: 2%;
+  margin-left: 6%;
+  margin-right: 3%;
+}
+p{
+  margin: 10px;
+
+  text-align: justify;
+  font-size: 22px;
+  font-style: italic;
+  padding:8px;
+  border-radius:10px;
+  max-width: 800px;
+  min-width: 400px;
+}
+
+#ll{
+  color:rgb(0, 100, 92);
+  font-size: 250%;
+  min-width: 400px;
+}
+.ita{
+  font-style: italic;
+}
+.sms{
+ font-size: 2rem;
+color:rgb(88, 84, 84)
+}
+
+.lms{
+  margin-left: 1rem;
+  font-size: 300%;
+  color:rgb(0, 82, 129);
+  font-family: serif;
+  font-weight: bold;
+  
+}
+
+
+.sfs img{
+  margin-top:1rem;
+  height:550px;
+  width:90%;
+  border-radius: 40%;
+  box-shadow: 5px 5px 8px rgb(236, 236, 226);
+}
+
+nav li a{
+  color:white;
+  font-weight: bold;
+  padding: 0.7% 4px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+nav{
+  background-color: rgba(31, 31, 32, 0.884);
+  height:50px;
+  width: 100%;
+}
+
+.checkbtn{
+  margin-right:2rem;
+  font-size:105%;
+  color:white;
+  float:right;
+  line-height: 50px;
+  cursor: pointer;
+}
+#check{
+  display: None;
+}
+
+.white{
+color:white;
+
+}
+.bold{
+font-weight: bold;;
+}
+
+#proj{
+width: 5%;
+height: 2%;
+
+}
+
+nav ul{
+  float:right;
+  margin-right:4rem;
+  color:white;
+  padding:5px;
+}
+nav li{
+  display: inline;
+  margin-right: 2rem;
+  font-weight: bold;
+  line-height: 42px;
+
+}
+
+span{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:crimson;
+}
+
+#lll{
+  color:brown;
+  font-size: 7rem;
+  font-weight: bolder;
+  
+}
+
+
+.logo{
+  font-size: 30px;
+  line-height: 50px;
+  margin-left: 5.5rem;
+  margin-right:2rem;
+}
+nav a:hover,.active{
+  background-color: white;
+  color:black;
+}
+nav a:hover{
+  background-color: rgb(194, 255, 235);
+  color:rgb(13, 13, 14);
+ 
+}
+
+@media (max-width: 952px) {
+  label.logo{
+    font-size:30px;
+    padding-left: 50px;
+  }
+ nav ul li a{
+   font-size: 16px;
+ }
+}
+
+@media (max-width: 658px) {
+ .checkbtn{
+   display: block;
+ }
+ p{
+   font-size: 20px;
+ }
+ body{
+   margin:2px;
+ }
+ img{
+   width: 400;
+   height: 350;
+ }
+ .sfs {
+  width: 25%;
+ 
+  float: left;
+  margin-left: 1rem;
+  
+}
+.cont {
+  width: 75%;
+  float: left;
+}
+
+body{
+  margin:4px;
+}
+
+.sfs img{
+
+  height: 200%;
+  width: 300%;
+}
+
+.sms{
+  font-size: 1.5rem;
+ color:rgb(88, 84, 84)
+ }
+ 
+ .lms{
+   margin-left: 20px;
+   font-size: 200%;
+ }
+  
+   #ll{
+    color:rgb(0, 100, 92);
+    font-size:150%; 
+    min-width: 300px;
+  }
+  
+
+  .span{
+font-size: 17px;
+color:crimson;
+width: 100%;
+  }
+
+  #prof img{
+width: 19%;
+  }
+  
+  progress{
+    font-size: 16px;
+  }
+  th{
+    font-size: 12px;
+    padding-right: 8px;
+  }
+
+  #lll{
+    font-size: 2.2rem;
+  }
+
+  .skls {
+    width:55%;
+    float: left;
+    margin-left: 3rem;
+  }
+  .tsk {
+    width: 45%;
+    float: left;
+  }
+  th{
+    font-size: 19px;
+    padding-right: 10px;
+  }
+
+  .h1{
+    color:brown;
+    font-size: 18px;
+    }
+.tsk img{
+  margin-left:rem;
+  width: 95%;
+  margin-right:40px;
+  height: 95%;
+  
+  }
+
+  .h2{
+    max-width:8px;
+    font-size: 12px;
+    text-align: center;
+    padding: 3px;
+
+    }
+}

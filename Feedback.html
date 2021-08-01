@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+    <style>
+        body{
+            background-image: radial-gradient( rgba(135, 142, 145, 0.233),white,rgba(233, 233, 193, 0.226));
+        }
+        label {
+          color: brown;
+          font-size: 150%;
+          margin-right: 5%;
+          font-weight: bold;
+        }
+        table{
+          width: 40%;
+        }
+        textarea,input{
+          font-size: 18px;
+          padding:4px;
+          background-color: rgb(255, 247, 236);
+          color:navy;
+        }
+@media (max-width: 658px) {
+  textarea,input{
+          font-size: 14px;
+          padding:2px;
+        }
+        table{
+          width: 10%;
+        }
+
+}
+    </style>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo bold white ">Vignesh </label>
+        <ul>
+          <li><a  href="./index.html">Home </a></li>
+          <li><a href="./About.html"> About </a></li>
+          <li ><a  href="./Mywork.html"> My Work </a></li>
+          <li><a href="./skill.html"> Skills </a></li>
+          <li><a class="active" href="#"> Feedback </a></li>
+          <li><a href="./contact.html"> Contact </a></li>
+        </ul>
+      </nav>
+      <div class="container">
+       
+        <center>
+          <img width="30%"  height="30%" src="https://static-cms.hotjar.com/images/measure-user-feedback.width-750.jpg" alt="">
+          <br>
+
+          <table border=0>
+            <tr>
+              <th>&nbsp;</th>
+            </tr>
+            <tr>
+              <th><label for="">Name  :</label></th>
+              <th> <input placeholder="Full Name " type="text"> </th>
+            </tr>
+            <tr>
+              <th>&nbsp;</th>
+            </tr>
+            <tr>
+            
+              <th colspan="2">
+               <textarea placeholder=" Enter your Feetback" name="" id="" cols="50" rows="7"></textarea>
+              </th>
+            </tr>
+            <tr>
+              <th>&nbsp;</th>
+            </tr>
+            <tr>
+              <th colspan="2"><input type="button" value="Submit"></th>
+            </tr>
+          </table>
+
+          
+         
+          <br>
+         
+        </center>
+       
+
+      </div>
+</body>
+</html
